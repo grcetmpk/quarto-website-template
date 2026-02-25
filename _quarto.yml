@@ -1,0 +1,81 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sample Quarto Website"
+  
+  # --- Add an icon for your website (it will show up on browser tabs!) This one is a red circle. 
+  favicon: images/favicon.png
+  
+  page-footer: | 
+    *Copyright YEAR, YOUR NAME. Built with [Quarto](https://quarto.org)*
+  
+  # --- Top bar ---
+  navbar:
+  
+     # --- Adds a search box! ---
+    search: true 
+    
+    # --- Things on the left side of the navigation (top) bar ---
+    left:
+    
+      # --- Changing from "Home" text to a house icon ---
+      - href: index.qmd
+        text: " "
+        icon: house-door-fill 
+        
+      # --- Standard Pages ---
+      - webpages/page1.qmd
+      - webpages/page2.qmd
+      # --- Drop-down menu with sub-pages ---
+      - sidebar:dropdown1
+      - sidebar:dropdown2
+      
+    # --- Things on the right side of the navigation bar. You can link your own GitHub Repo! ---
+    right:
+      - href: "https://github.com/grcetmpk/quarto_website_template"
+        icon: github
+
+        
+  # --- Drop-down menus with sub-pages ---
+  sidebar:
+    - id: dropdown1
+      title: "Dropdown 1"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+        - webpages/dropdown1/subpage-1A.qmd
+        - webpages/dropdown1/subpage-1B.qmd
+        
+
+    - id: dropdown2
+      title: "Dropdown 2"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+        - webpages/dropdown2/subpage-2A.qmd
+        - webpages/dropdown2/subpage-2B.qmd
+
+
+
+      
+format:
+  html:
+    # --- You can change the theme ---
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    # --- Cookie-consent pop-up, connected to Google Analytics ---
+    include-in-header: privacypolicy/google-analytics.html
+    include-after-body: privacypolicy/custom-popup.html
+
+
+
+
+
+
+

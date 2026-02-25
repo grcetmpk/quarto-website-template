@@ -1,0 +1,5 @@
+---
+title: "Subpage A from Dropdown 1"
+---
+
+This page is written like any other page, but is found in a drop down menu! 

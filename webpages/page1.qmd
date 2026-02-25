@@ -1,0 +1,13 @@
+---
+title: "Page 1"
+---
+
+## This is a level-2 header (title is level 1). 
+
+I wrote the header using `## [Header Text]`
+
+### This is a level 3 header. 
+
+I wrote it using `### [Header Text]`
+
+This is a simple page that's relatively empty. Compare this to [Page 2](/webpages/page2.qmd)! 

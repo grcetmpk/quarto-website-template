@@ -1,0 +1,47 @@
+---
+title: "Page 2"
+subtitle: "Subtitle for Page 2"
+date-modified: last-modified
+---
+
+This is a sample page that's a bit more fancy. It has a subtitle, and the last date the page was modified appears using `date-modified: last-modified` in the preamble of this page.
+
+Just like in RMarkdown, I can add:
+
+-   images
+
+-   tables
+
+-   lists
+
+-   LaTex
+
+-   Code Chunks
+
+-   ... and more!
+
+If you're using RStudio, the visual mode (see button on the top left) can be helpful with adding extra features!
+
+![](images/visualbutton.png){fig-align="center"}
+
+## More cool features
+
+I really like to add drop-down menus for teaching! These are called "callout" blocks. In visual mode, you can find them under the "Insert" drop down menu, near the bottom.
+
+::: {.callout-tip collapse="true"}
+## This is a drop-down menu. Click it to read more!
+
+Surprise! 
+
+:::
+
+I often imbed YouTube videos in my webpages, too. You can easily add them using `{{< video [VIDEO LINK]>}}`.
+
+{{< video https://youtu.be/s4jRj0wrtQg >}}
+
+
+
+
+
+
+

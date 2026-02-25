@@ -1,0 +1,17 @@
+---
+title: "Simple Quarto Website Template"
+---
+
+This is a Quarto Website template that I like to use. It is easily modified, but contains a few important features that I often want to repeat!
+
+- The jekyll template (which can be pesky when working with GitHub pages) is already disabled
+- Templates for drop-down menus are provided
+- Google Analytics is set up for you to use, along with a pop-up for user consent! To use Google Analytics:
+  - Sign up for a Google Analytics Account
+  - Create a stream for this website
+  - Add your Google Analytics Measurement ID (G-XXXXXXXXXX) to two lines of code found in `privacypolicy/google-analytics.html`. 
+  - Update your contact information at `privacypolicy/privacy.qmd`
+- If you don't want to track your analytics, remove the last two lines of code in `_quarto.yml` (`include-in-header: privacypolicy/google-analytics.html` and `include-after-body: privacypolicy/custom-popup.html` can be deleted)
+
+
+This page (`index.qmd`) is your Home Page. 
