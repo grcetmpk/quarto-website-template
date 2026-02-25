@@ -68,7 +68,7 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+
     # --- Cookie-consent pop-up, connected to Google Analytics ---
     include-in-header: privacypolicy/google-analytics.html
     include-after-body: privacypolicy/custom-popup.html

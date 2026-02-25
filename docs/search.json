@@ -62,13 +62,6 @@
     "text": "This is a Quarto Website template that I like to use. It is easily modified, but contains a few important features that I often want to repeat!\n\nThe jekyll template (which can be pesky when working with GitHub pages) is already disabled\nTemplates for drop-down menus are provided\nGoogle Analytics is set up for you to use, along with a pop-up for user consent! To use Google Analytics:\n\nSign up for a Google Analytics Account\nCreate a stream for this website\nAdd your Google Analytics Measurement ID (G-XXXXXXXXXX) to two lines of code found in privacypolicy/google-analytics.html.\nUpdate your contact information at privacypolicy/privacy.qmd\n\nIf you don’t want to track your analytics, remove the last two lines of code in _quarto.yml (include-in-header: privacypolicy/google-analytics.html and include-after-body: privacypolicy/custom-popup.html can be deleted)\n\nThis page (index.qmd) is your Home Page."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "webpages/dropdown2/subpage-2A.html",
     "href": "webpages/dropdown2/subpage-2A.html",
     "title": "Subpage A from Dropdown 2",
